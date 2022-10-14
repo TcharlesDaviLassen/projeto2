@@ -1,0 +1,174 @@
+body {
+
+    background-color: #000000;
+}
+
+input {
+    padding: 16px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 100%;
+
+    margin: 16px 0;
+
+}
+
+input:hover {
+    padding: 16px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 16px;
+    width: 100%;
+
+    margin: 16px 0;
+
+    background-color: rgb(198, 245, 228);
+}
+
+button {
+    background-color: rgb(255, 120, 30);
+    border: none;
+    padding: 16px;
+    width: 100%;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+
+    margin: 16px 0;
+}
+
+button:focus {
+    box-shadow: 0px 0px 10px 0.2px rgba(233, 126, 5, 0.726);
+}
+
+.coffe:hover {
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1%;
+    width: 100%;
+
+    /* Primeiro passo: definir um degradê como fundo */
+    /* background-image: linear-gradient(to bottom, rgb(224, 149, 9), rgb(206, 88, 33), rgb(230, 126, 8)); */
+
+    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    /* Alguns navegadores precisam do prefixo */
+
+    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+    /* -webkit-text-fill-color: transparent; */
+
+    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+    color: black;
+
+    /* text-decoration: underline wavy; */
+}
+
+h1.coffe {
+    margin-left: 1%;
+    font-size: 3rem;
+}
+
+h2.textLogin {
+    margin: 16px 0;
+}
+
+.coffelogo {
+    width: 10rem;
+    margin-left: 2rem;
+}
+
+
+
+/* .buttonLogin {
+    background-color: rgb(255, 120, 30);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+
+} */
+
+
+.login_btn:hover {
+    background-color: rgb(199, 96, 28);
+    cursor: pointer;
+}
+
+.login_btn {
+    background-color: #a35c00e0;
+}
+
+.buttonCasastrar:hover {
+    background-color: rgb(101, 12, 245);
+    cursor: pointer;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    ;
+}
+
+.name-input:focus,
+.password-input:focus {
+    box-shadow: 0px 0px 10px 0.2px #fff;
+}
+
+.login {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(85, 30, 4, 0.582);
+    color: rgb(255, 255, 255);
+
+    top: 50%;
+    left: 50%;
+    padding: 3rem;
+    border-radius: 16px;
+
+}
+
+.buttonCasastrar {
+    background-color: rgb(54, 7, 182);
+    /* margin-top: 18px; */
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.buttonCasastrar:focus {
+    box-shadow: 0px 0px 10px 0.2px rgb(54, 7, 182);
+}
+
+
+.bi-eye-slash {
+    position: absolute;
+    top: 60.5%;
+    left: 76%;
+    cursor: pointer;
+    color: #000000;
+    font-size: 110%;
+}
+
+.swal2-styled,
+.swal2-confirm {
+    border: 0;
+    border-radius: 4.25em;
+    background: beige;
+    background-color: #1f12a7;
+    color: #fff;
+    font-size: 1em;
+    width: 30%;
+}
